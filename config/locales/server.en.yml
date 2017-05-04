@@ -418,17 +418,17 @@ en:
   assets_topic_body: "This is a permanent topic, visible only to staff, for storing images and files used in the site design. Don't delete it!\n\n\nHere's how:\n\n\n1. Reply to this topic.\n2. Upload all the images you wish to use for logos, favicons, and so forth here. (Use the upload toolbar icon in the post editor, or drag-and-drop or paste images.)\n3. Submit your reply to post it.\n4. Right click the images in your new post to get the path to the uploaded images, or click the edit icon to edit your post and retrieve the path to the images. Copy the image paths.\n5. Paste those image paths into [basic settings](/admin/site_settings/category/required).\n\n\nIf you need to enable different file type uploads, edit `authorized_extensions` in the [file settings](/admin/site_settings/category/files)."
 
   discourse_welcome_topic:
-    title: "Welcome to Discourse"
+    title: "Welcome to Gatelight"
     body: |
 
-      The first paragraph of this pinned topic will be visible as a welcome message to all new visitors on your homepage. It's important!
+      The first paragraph of this pinned topic will be visible as a welcome message to all new collaborators. It's important!
 
-      **Edit this** into a brief description of your community:
+      **Edit this** into a brief description of your investigation:
 
-      - Who is it for?
-      - What can they find here?
-      - Why should they come here?
-      - Where can they read more (links, resources, etc)?
+      - What are you investigating?
+      - What drew you to this investigation?
+      - What is the timeline your investigation?
+      - Where can your collaborators read more (links, resources, etc)?
 
       <img src="/images/welcome/discourse-edit-post-animated.gif" width="508" height="106">
 
@@ -453,7 +453,7 @@ en:
 
       Here's the [current list of fellow regulars](/badges/3/regular). Be sure to say hi.
 
-      Thanks for being an important part of this community!
+      Thanks for being an important part of this investigation!
 
       (For more information on trust levels, [see this topic][trust]. Please note that only members who continue to meet the requirements over time will remain regulars.)
 
