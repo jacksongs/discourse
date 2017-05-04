@@ -34,7 +34,7 @@ required:
     client: true
     default: ''
   notification_email:
-    default: 'noreply@unconfigured.discourse.org'
+    default: 'noreply@gatelight.org'
     type: email
     shadowed_by_global: true
   site_contact_username:
