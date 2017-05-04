@@ -168,11 +168,11 @@ en:
 
     topic_admin_menu: "topic admin actions"
 
-    wizard_required: "Welcome to your new Discourse! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
+    wizard_required: "Welcome to your Gatelight investigation! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
-    bootstrap_mode_enabled: "To make launching your new site easier, you are in bootstrap mode. All new users will be granted trust level 1 and have daily email digest updates enabled. This will be automatically turned off when total user count exceeds %{min_users} users."
-    bootstrap_mode_disabled: "Bootstrap mode will be disabled in next 24 hours."
+    bootstrap_mode_enabled: "To make launching your investigation easier, all collaborated will be granted 'trust level 1' (see the Admin Quick Start Guide) and have daily email digest updates enabled. This will be automatically turned off when more than %{min_users} people are involved."
+    bootstrap_mode_disabled: "Your investigation is now considered large and new collaborators will be granted 'trust level 0' (see the Admin Quick Start Guide)."
 
     s3:
       regions:
@@ -2451,7 +2451,7 @@ en:
     type_to_filter: "type to filter..."
 
     admin:
-      title: 'Discourse Admin'
+      title: 'Gatelight Admin'
       moderator: 'Moderator'
 
       dashboard:
@@ -2467,7 +2467,7 @@ en:
         version_check_pending: "Looks like you upgraded recently. Fantastic!"
         installed_version: "Installed"
         latest_version: "Latest"
-        problems_found: "Some problems have been found with your installation of Discourse:"
+        problems_found: "Some problems have been found with your installation of Gatelight:"
         last_checked: "Last checked"
         refresh_problems: "Refresh"
         no_problems: "No problems were found."
@@ -2625,7 +2625,7 @@ en:
       web_hooks:
         title: "Webhooks"
         none: "There are no webhooks right now."
-        instruction: "Webhooks allows Discourse to notify external services when certain event happens in your site. When the webhook is triggered, a POST request will send to URLs provided."
+        instruction: "Webhooks allows Gatelight to notify external services when certain event happens in your site. When the webhook is triggered, a POST request will send to URLs provided."
         detailed_instruction: "A POST request will be sent to provided URL when chosen event happens."
         new: "New Webhook"
         create: "Create"
@@ -2831,7 +2831,7 @@ en:
           undo: "undo"
           undo_title: "Undo your changes to this color since the last time it was saved."
           revert: "revert"
-          revert_title: "Reset this color to Discourse's default color scheme."
+          revert_title: "Reset this color to Gatelight's default color scheme."
           primary:
             name: 'primary'
             description: 'Most text, icons, and borders.'
@@ -3387,9 +3387,9 @@ en:
         delete_confirm: "Are you sure you want to delete the :%{name}: emoji?"
 
       embedding:
-        get_started: "If you'd like to embed Discourse on another website, begin by adding its host."
+        get_started: "If you'd like to embed Gatelight on another website, begin by adding its host."
         confirm_delete: "Are you sure you want to delete that host?"
-        sample: "Use the following HTML code into your site to create and embed discourse topics. Replace <b>REPLACE_ME</b> with the canonical URL of the page you are embedding it on."
+        sample: "Use the following HTML code into your site to create and embed Gatelight topics. Replace <b>REPLACE_ME</b> with the canonical URL of the page you are embedding it on."
         title: "Embedding"
         host: "Allowed Hosts"
         path_whitelist: "Path Whitelist"
@@ -3398,13 +3398,13 @@ en:
         add_host: "Add Host"
         settings: "Embedding Settings"
         feed_settings: "Feed Settings"
-        feed_description: "Providing an RSS/ATOM feed for your site can improve Discourse's ability to import your content."
+        feed_description: "Providing an RSS/ATOM feed for your site can improve Gatelight's ability to import your content."
         crawling_settings: "Crawler Settings"
-        crawling_description: "When Discourse creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
+        crawling_description: "When Gatelight creates topics for your posts, if no RSS/ATOM feed is present it will attempt to parse your content out of your HTML. Sometimes it can be challenging to extract your content, so we provide the ability to specify CSS rules to make extraction easier."
 
         embed_by_username: "Username for topic creation"
         embed_post_limit: "Maximum number of posts to embed"
-        embed_username_key_from_feed: "Key to pull discourse username from feed"
+        embed_username_key_from_feed: "Key to pull Gatelight username from feed"
         embed_title_scrubber: "Regular expression used to scrub the title of posts"
         embed_truncate: "Truncate the embedded posts"
         embed_whitelist_selector: "CSS selector for elements that are allowed in embeds"

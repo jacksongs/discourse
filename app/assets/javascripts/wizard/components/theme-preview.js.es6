@@ -37,7 +37,7 @@ export default createPreviewComponent(659, 320, {
     ctx.beginPath();
     ctx.fillStyle = colors.primary;
     ctx.font = `bold ${titleFontSize}em 'Arial'`;
-    ctx.fillText("Welcome to Discourse", margin, (height * 0.25));
+    ctx.fillText("Welcome to Gatelight", margin, (height * 0.25));
 
     const bodyFontSize = height / 440.0;
     ctx.font = `${bodyFontSize}em 'Arial'`;
