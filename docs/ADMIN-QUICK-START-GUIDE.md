@@ -54,7 +54,7 @@ To make (or remove) a pin or a banner, use the admin wrench at the top right or 
 
 ### The Trust System
 
-For very large, public investigations - over 50 collaborators - Gatelight is designed to offer safe defaults for public investigations, even with no active moderation.
+For very large, public investigations - over five collaborators - Gatelight is designed to offer safe defaults for public investigations, even with no active moderation.
 
 The [trust system](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924/2) allows users to, over time, earn the trust of the community and gain abilities to assist in administering the investigation.
 

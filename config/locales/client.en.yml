@@ -171,7 +171,7 @@ en:
     wizard_required: "Welcome to your Gatelight investigation! Let’s get started with <a href='%{url}' data-auto-route='true'>the setup wizard</a> ✨"
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
-    bootstrap_mode_enabled: "To make launching your investigation easier, all collaborated will be granted 'trust level 1' (see the Admin Quick Start Guide) and have daily email digest updates enabled. This will be automatically turned off when more than %{min_users} people are involved."
+    bootstrap_mode_enabled: "To make launching your investigation easier, all collaborators will be granted 'trust level 1' (see the Admin Quick Start Guide) and have daily email digest updates enabled. This will be automatically turned off when more than %{min_users} people are involved."
     bootstrap_mode_disabled: "Your investigation is now considered large and new collaborators will be granted 'trust level 0' (see the Admin Quick Start Guide)."
 
     s3:

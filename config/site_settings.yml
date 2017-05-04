@@ -1289,7 +1289,7 @@ uncategorized:
     hidden: true
 
   bootstrap_mode_min_users:
-    default: 50
+    default: 5
     client: true
     min: 0
     max: 5000

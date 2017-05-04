@@ -427,7 +427,7 @@ en:
 
       - What are you investigating?
       - What drew you to this investigation?
-      - What is the timeline your investigation?
+      - What is the timeline of your investigation?
       - Where can your collaborators read more (links, resources, etc)?
 
       <img src="/images/welcome/discourse-edit-post-animated.gif" width="508" height="106">
@@ -3364,44 +3364,44 @@ en:
     no_plugins: "Disable all plugins"
     enter: "Enter Safe Mode"
   wizard:
-    title: "Discourse Setup"
+    title: "Gatelight Setup"
     step:
       locale:
-        title: "Welcome to your Discourse!"
+        title: "Welcome to your Gatelight investigation!"
         fields:
           default_locale:
-            description: "What’s the default language for your community?"
+            description: "What’s the default language for your investigation?"
 
       forum_title:
         title: "Name"
-        description: "Your name is a sign visible in the distance, the <i>first</i> thing potential visitors will notice about your community. What does your name and title say about your community?"
+        description: "What is the focus of your investigation? It may change, but what do you want to know?"
 
         fields:
           title:
-            label: "Your community’s name"
-            placeholder: "Jane’s Hangout"
+            label: "Your investigation in a short phrase"
+            placeholder: "For example, 'NBN privatisation'"
           site_description:
-            label: "Describe your community in one short sentence"
-            placeholder: "A place for Jane and her friends to discuss cool stuff"
+            label: "Describe your investigation in one short question"
+            placeholder: "For example, 'Is the NBN on-track to be sold and, if not, what are the implications?'"
 
       introduction:
         title: "Introduction"
 
         fields:
           welcome:
-            label: "Welcome Topic"
-            description: "<p>How would you describe your community to a stranger on an elevator in about 1 minute?</p>
+            label: "Investigation Topic"
+            description: "<p>Expressing the what and why of your investigation is an important step to direct your endeavours.</p>
               <ul>
-              <li>Who are these discussions for?</li>
-              <li>What can I find here?</li>
-              <li>Why should I visit?</li>
+              <li>Why is your investigation important to the community?</li>
+              <li>Who is affected? Who would care?</li>
+              <li>What would be the outcome of a successful investigation?</li>
               </ul>
-            <p>Your welcome topic is the first thing new arrivals will read. Think of it as your <b>one paragraph</b> 'elevator pitch' or 'mission statement'. </p>"
+            <p>Your investigation topic sits prominently on your Gatelight page. It is the first thing collaborators will read, and serves as a guide to focus your efforts.</p>"
             one_paragraph: "Please restrict your welcome message to one paragraph."
 
       privacy:
         title: "Access"
-        description: "<p>Is your community open to everyone, or is it restricted by membership, invitation, or approval? If you prefer, you can set things up privately, then switch over to public later.</p>
+        description: "<p>Is your investigation open to everyone, or is it restricted by membership, invitation, or approval? If you prefer, you can set things up privately, then switch over to public later.</p>
          <p>You can always send invites from topics, or from your user profile page, too.</p>"
 
         fields:
@@ -3409,10 +3409,10 @@ en:
             choices:
               open:
                 label: "Public"
-                description: "Anyone can access this community and sign up for an account"
+                description: "Anyone can access this investigation and sign up for an account"
               restricted:
                 label: "Private"
-                description: "Only people I have invited or approved can access this community"
+                description: "Only people I have invited or approved can access this investigation"
 
       contact:
         title: "Contact"
@@ -3420,17 +3420,17 @@ en:
           contact_email:
             label: "Mail"
             placeholder: "name@example.com"
-            description: "Email address for the person or group responsible for this community. Used for critical notifications such as unhandled flags, security updates, and on <a href='/about' target='_blank'>your about page</a> for urgent community contact."
+            description: "Email address for the person or group responsible for this investigation. Used for critical notifications such as unhandled flags, security updates, and on <a href='/about' target='_blank'>your about page</a> for urgent contact."
           contact_url:
             label: "Web Page"
             placeholder: "http://www.example.com/contact-us"
             description: "General contact web page for you or your organization. Will be displayed on <a href='/about' target='_blank'>your about page</a>."
           site_contact:
             label: "Automated Messages"
-            description: "All automated Discourse personal messages will be sent from this user, such as the welcome message sent to each new user."
+            description: "All automated Gatelight personal messages will be sent from this user, such as the welcome message sent to each new user."
 
       corporate:
-        title: "Organization"
+        title: "Organisation"
         description: "These names will be entered in your <a href='/privacy' target='blank'>Privacy Policy</a> and <a href='/tos' target='blank'>Terms of Service</a>, which are topics you can edit in the Staff category. If you don’t have a company, feel free to skip this step for now."
 
         fields:
@@ -3476,7 +3476,7 @@ en:
             description: "Icon image used to represent your site on modern devices that looks good at larger sizes. Recommended size is at least 144px by 144px."
 
       homepage:
-        description: "We recommend showing the latest topics on your homepage, but you can also show categories (groups of topics) on the homepage if you prefer."
+        description: "You can either show a list of posts with the latest information or categories (types of information) on the homepage."
         title: "Homepage"
 
         fields:
@@ -3492,11 +3492,11 @@ en:
         description: "Which Emoji style do you prefer for your community? You can add more custom Emoji later via Admin, Customize, Emoji."
 
       invites:
-        title: "Invite Staff"
-        description: "You’re almost done! Let’s invite some staff members to help <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='blank'>seed your discussions</a> with interesting topics and replies to get your community started."
+        title: "Invite Collaborators"
+        description: "You’re almost done! Let’s invite some collaborators to help with your investigation."
 
       finished:
-        title: "Your Discourse is Ready!"
+        title: "Your Gatelight is Ready!"
         description: |
           <p>If you ever feel like changing these settings, visit <a href='/admin' target='_blank'>your admin section</a>; find it next to the wrench icon in the site menu.</p>
-          <p>Have fun, and good luck <a href='https://blog.discourse.org/2014/08/building-a-discourse-community/' target='_blank'>building your new community!</a></p>
+          <p>Have fun, and good luck with your investigation! And remember, a professional journalist is only ever an @-mention away.</p>
